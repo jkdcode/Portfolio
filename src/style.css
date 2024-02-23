@@ -70,8 +70,37 @@ p {
 .project-description {
   padding: 20px 20px 0;
 }
+.about-section {
+  padding: 160px 20px;
+  max-width: 900px;
+}
+.about-section h1 {
+  font-size: 48px;
+}
 
-@media (max-width: 960px) {
+.about-section h2 {
+  font-size: 36px;
+}
+
+.about-section img {
+  padding: 200px 20px 20px;
+}
+
+.about-section a {
+  font-weight: bold;
+  color: var(--branding-color);
+  text-decoration: none;
+  font-style: italic;
+}
+.about-section a:hover {
+  text-decoration: underline;
+}
+
+.about-section-content {
+  margin: 0 30px;
+}
+
+@media (max-width: 900px) {
   h1 {
     font-size: 80px;
   }
@@ -91,5 +120,19 @@ p {
 
   .hero {
     padding: 80px 20px;
+  }
+
+  .about-section img {
+    padding: 0 20px 20px;
+  }
+
+  .about-section h1 {
+    font-size: 36px;
+  }
+  .about-section h2 {
+    font-size: 24px;
+  }
+  .about-section {
+    padding: 20px;
   }
 }
