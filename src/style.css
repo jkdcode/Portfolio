@@ -103,13 +103,13 @@ p {
   margin: 20px 80px;
 }
 
-.about-embroidery a {
+.about-project a {
   font-weight: bold;
   color: var(--branding-color);
   text-decoration: none;
 }
 
-.about-embroidery a:hover {
+.about-project a:hover {
   text-decoration: underline;
 }
 
