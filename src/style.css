@@ -31,6 +31,24 @@ p {
   line-height: 30px;
 }
 
+.logo {
+  max-width: 120px;
+}
+
+.navbar {
+  font-size: 24px;
+  font-weight: 400px;
+  font-family: var(--default-font-family);
+}
+
+.nav-item {
+  padding: 0 50px;
+}
+
+.active {
+  color: var(--branding-color) !important;
+}
+
 .hero {
   background-color: var(--background-color);
   text-align: center;
@@ -97,6 +115,10 @@ p {
 
 .about-section-content {
   margin: 0 30px;
+}
+
+.project-container {
+  margin: 160px 20px;
 }
 
 .about-project {
