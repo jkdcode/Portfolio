@@ -131,6 +131,13 @@ p {
     text-align: center;
   }
 
+  .project-title {
+    font-size: 48px;
+  }
+  .about-project {
+    padding: 0;
+    margin: 10px;
+  }
   .hero {
     padding: 80px 20px;
   }
