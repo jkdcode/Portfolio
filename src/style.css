@@ -122,7 +122,9 @@ p {
 }
 
 .about-project {
-  margin: 20px 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 .about-project a {
