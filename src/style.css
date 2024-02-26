@@ -113,7 +113,7 @@ p {
   text-decoration: underline;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   h1 {
     font-size: 80px;
   }
