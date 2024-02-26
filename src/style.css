@@ -57,7 +57,7 @@ p {
 
 .btn-branding {
   color: var(--background-color);
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
   background: var(--branding-color);
   border: 1px solid var(--branding-color);
   border-radius: 4px;
@@ -71,7 +71,7 @@ p {
 }
 
 .btn-branding-outline {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
   border: 1px solid var(--branding-color);
   border-radius: 4px;
   font-size: 18px;
@@ -161,7 +161,7 @@ p {
     margin: 10px;
   }
   .hero {
-    padding: 80px 20px;
+    padding: 100px 20px;
   }
 
   .about-section img {
