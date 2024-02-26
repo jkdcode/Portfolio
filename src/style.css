@@ -121,6 +121,12 @@ p {
   margin: 160px 20px;
 }
 
+.project-container a {
+  font-weight: bold;
+  color: var(--branding-color);
+  text-decoration: none;
+}
+
 .about-project {
   max-width: 1200px;
   margin: 0 auto;
