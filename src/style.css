@@ -183,6 +183,10 @@ footer i:hover {
     font-size: 40px;
   }
 
+  h4 {
+    font-size: 30px;
+  }
+
   .project-description {
     padding: 0;
     text-align: center;
