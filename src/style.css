@@ -1,6 +1,6 @@
 :root {
   --branding-color: #092635;
-  --background-color: #f9f7fe;
+  --background-color: #f8f9fa;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -23,6 +23,13 @@ h3 {
   font-weight: bold;
   font-size: 48px;
   color: var(--branding-color);
+}
+
+h4 {
+  font-family: var(--heading-font-family);
+  color: var(--branding-color);
+  font-weight: 600;
+  font-size: 36px;
 }
 
 p {
@@ -104,15 +111,6 @@ p {
   padding: 200px 20px 20px;
 }
 
-.about-section a {
-  font-weight: bold;
-  color: var(--branding-color);
-  text-decoration: none;
-}
-.about-section a:hover {
-  text-decoration: underline;
-}
-
 .about-section-content {
   margin: 0 30px;
 }
@@ -141,6 +139,35 @@ p {
 
 .about-project a:hover {
   text-decoration: underline;
+}
+
+footer {
+  margin: 60px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  font-family: var(--default-font-family);
+  color: var(--branding-color);
+  font-size: 18px;
+}
+
+footer .email-link:hover {
+  text-decoration: underline;
+}
+
+footer i {
+  font-size: 36px;
+  color: var(--branding-color);
+  background: var(--background-color);
+  padding: 10px 10px;
+  border-radius: 50%;
+}
+
+footer i:hover {
+  color: var(--background-color);
+  background: var(--branding-color);
+  transition: all 150ms ease-in-out;
 }
 
 @media (max-width: 800px) {
